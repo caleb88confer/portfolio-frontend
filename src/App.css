@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: #EDE7DC;
+}
+
+nav {
+  background-color: #CCAFA5;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: #EDE7DC;
+  font-size: 1.4rem;
+}
+
+h1 {
+  color: #BDC3CB;
+}
+
+footer {
+  margin-top: 70%;
+  color: #BDC3CB;
+}
+
+footer h5 {
+  color: #BDC3CB;
+}

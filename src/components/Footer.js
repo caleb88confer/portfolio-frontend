@@ -1,6 +1,9 @@
 function Footer(props) {
     return (
-        <h1>Footer</h1>
+        <footer>
+            <h5>Copyright © 2021 Caleb Confer</h5>
+
+        </footer>
     );
 };
 
