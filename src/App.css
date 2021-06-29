@@ -41,6 +41,12 @@ body {
   background-color: #EDE7DC;
 }
 
+.homeImg {
+  height: 500px;
+  clip-path: circle();
+  margin-top: 75px;
+}
+
 nav {
   background-color: #CCAFA5;
 }
@@ -55,6 +61,16 @@ h1 {
   color: #BDC3CB;
 }
 
+.imageContainer {
+  height: 300px;
+ 
+}
+
+.projectImg {
+  height: 300px;
+
+}
+
 footer {
   margin-top: 70%;
   color: #BDC3CB;
@@ -62,4 +78,16 @@ footer {
 
 footer h5 {
   color: #BDC3CB;
+}
+
+h2 {
+  color: #BDC3CB;
+}
+
+h3 {
+  color: #BDC3CB;
+}
+
+p {
+  color: #9eacbf;
 }

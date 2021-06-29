@@ -21,13 +21,18 @@ function Projects (props) {
         return projects.map((project) => (
             <div>
                 <h1>{project.name}</h1>
-                <img src={project.img} />
+                <div className="imageContainer">
+                <img className="projectImg" src={project.image} alt={project.name} />
+
+                </div>
                 <a href={project.git}>
                     <button>Github</button>
                 </a>
                 <a href={project.live}>
                     <button>live site</button>
                 </a>
+
+                
             </div>
         ));
     };
